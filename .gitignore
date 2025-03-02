@@ -1,0 +1,39 @@
+# Node.js bağımlılıkları
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+
+.env
+
+
+
+# Derlenmiş dosyalar
+dist/
+build/
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# IDE / Editör dosyaları
+.vscode/
+.idea/
+*.swp
+
+# Derleme dosyaları
+*.o
+*.out
+*.class
+*.exe
+
+# Günlük (log) dosyaları
+*.log
+
+# Çeşitli geçici dosyalar
+*.tmp
+*.bak
+
+# Çalışma dosyaları
+*.sublime-workspace
