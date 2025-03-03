@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/avatar.svg";
+import Image from "../assets/main.png";
 
 import { FaLinkedin, FaGithub, FaYoutube, FaLink } from "react-icons/fa";
 
@@ -82,9 +82,11 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">contact</button>
               <a href="#" className="text-gradient btn-link ">
                 my portfolio
+              </a>
+              <a href="#" className="special-button">
+                <span>Contact me!</span>
               </a>
             </motion.div>
             <motion.div
@@ -112,7 +114,7 @@ const Banner = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[360px]"
           >
-            <img src={Image} />
+            <img className="scale-150" src={Image} />
           </motion.div>
         </div>
       </div>
